@@ -1,6 +1,6 @@
 import React from "react";
 
-import { SubHeading } from "../../components";
+import SubHeading from "../SubHeading/SubHeading";
 import "./Newsletter.css";
 
 const Newsletter = () => (
@@ -9,6 +9,10 @@ const Newsletter = () => (
       <SubHeading title="Newsletter" />
       <h1 className="headtext__cormorant">Subscribe To Our Newsletter</h1>
       <p className="p__opensans">Never miss the latest updates.</p>
+    </div>
+    <div className="app__newsletter-input flex__center">
+      <input type="email" placeholder="Enter you email address" name="" id="" />
+      <button className="custom__button">Subscribe</button>
     </div>
   </div>
 );
